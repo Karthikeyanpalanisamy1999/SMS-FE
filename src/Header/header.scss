@@ -1,0 +1,20 @@
+@import '../assets/styles/index.scss';
+
+.header-main {
+    .top-bar {
+        background-color:$StudentManagementSalmon;
+        color:white;
+        font-weight: 600;
+    }
+    .cursor-pointer{
+        cursor: pointer;
+    }
+    .menu-bar {
+        background-color:$StudentManagementLightGray;
+        .nav-item {
+            &.active {
+                font-weight: 700;
+            }
+        }
+    }
+}
